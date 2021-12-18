@@ -11,6 +11,6 @@
 
 - 다양한 국가에 맞는 각각에 사이즈 컵을 생성하고 싶다면?
 
-C:\Users\User\Desktop\blog\팩토리메서드.png
+![image](..\imgs\팩토리메서드.png)
 
 
