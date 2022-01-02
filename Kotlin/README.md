@@ -84,19 +84,70 @@ val multi = {x: Int , y:Int -> x * y}
 
 <br><br>
 
-### 4-0. 람다식
+### 4-1. 람다식
+
+
+#### 형식
+- value 처럼 다룰 수 있는 익명함수
+- 두개이상의 입력을 한개로 단순화 한다는 개념  
+
 #### 장점
 1. 코드가 간결해짐
 2. 다중 CPU를 활용하는 구조로서 병렬처리에 매우 용이
 
-#### 형식
-의미 : 두개이상의 입력을 한개로 단순화 한다는 개념  
 자료형 : (Int , Int) -> Int  
 함수생성 : ={x: Int , y :Int -> x*y}
 
+```
+val square : (Int) -> (Int) ={number -> number*number}
+```
 
-### 4-1. 고차 함수와 람다식
+
+### 4-2. 고차 함수와 람다식
 고차함수는 인자나 반환값으로 함수를 사용함
 
- 
+### 4-3. 확장함수
+```
+fun 확장 대상.함수 이름(매개변수 , ...): 반환값{
+    ...
+    return 값
+}
+```
+
+<br></br> 
+## 5. 프로그램 흐름 제어
+### 5.1 조건문
+- when 조건문
+```
+   when(num){
+        0 -> print("this is 0")
+        1 -> print("this is 1")
+        else -> print("this is else")
+    }
+```
+```
+   when(num){
+        in 90..100 -> print("this is 0")
+        in 10..80 -> print("this is 1")
+        else -> print("this is else")
+    }
+```
+
+<br><br>
+
+
+## 6장. 클래스
+- 주생성자의 동작은 init 을 통해 정의할 수 있다.
+- 부생성자는 cunstructor로 생성하고 ,
+- 클래스 매개 변수 할당을 다음과 같이 축약해서 작성할 수 있다.
+```
+class User(val id:Int, var name: String , var age: Int)
+```
+- getter 와 setter 는 자동 생성되고 val은 getter 만 생성된다.
+- 커스텀 세터를 생성할때에는 'field'라는 예약어에 원하는 값을 넣는다.
+
+## 8장. lsit vs array
+- array 는 원소는 바뀌고 크기는 불변 
+    - var arr = IntArray(size:10)
+    - var arr = arrayOf(10,1)
 
