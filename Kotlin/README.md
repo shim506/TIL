@@ -190,3 +190,10 @@ class User(val id:Int, var name: String , var age: Int)
     - var arr = IntArray(size:10)
     - var arr = arrayOf(10,1)
 
+### 제네릭
+
+고정적인 자료형 대신 실제 자료형을 대체되는 **타입 패러미터**를 받아 사용하는 방법
+
+- 장점 : generic 이 자료형을 대체하여 실제 자료형을 추론하고 캐스팅을 방지하여 성능을 높일 수 있다.
+
+furn <T> genericFunc(var param:T){} -> genericFunc(1) 로 사용할 경우 자동으로 타입이 Int로 추론된다
