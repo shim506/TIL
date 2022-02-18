@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb1b1800-1140-4601-959c-6a07007046d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Android/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Android/img_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Android/android.md" beforeDir="false" afterPath="$PROJECT_DIR$/Android/android.md" afterDir="false" />
     </list>
@@ -44,5 +45,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
